@@ -1,0 +1,55 @@
+.text {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  right: 18%;
+  flex-direction: column;
+}
+/* .section-2 {
+  background-color: grey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+} */
+.text-1 {
+  font-size: 40px;
+}
+.text-2 {
+  font-size: 18px;
+  margin-top: 30px;
+}
+.image-1 {
+  display: flex;
+  top: 20%;
+  position: absolute;
+  left: 5%;
+}
+
+.image-2 {
+  top: 131%;
+  position: absolute;
+  left: 35%;
+}
+
+.secondary-text {
+  font-family: "Roboto", sans-serif;
+  /* display: flex; */
+  position: absolute;
+  top: 150%;
+  right: 45px;
+  left: 10%;
+  right: 75%;
+  /* flex-direction: column; */
+}
+
+.h2 {
+  font-size: 40px;
+}
+
+.text-4{
+  font-size: 18px;
+  margin-top: 30px;
+}
