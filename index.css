@@ -1,53 +1,59 @@
 .text-wrapper {
   justify-content: center;
   align-items: center;
-  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
-  position: fixed;
+  position: absolute;
   left: 66%;
   top: 35%;
-  }
+}
 
 .text-wrapper h1 {
+  font-family: 'Alexandria', sans-serif;
   font-size: 40px;
   width: 400px;
   margin-bottom: 20px;
 }
 
 .text-wrapper p {
+  font-family: 'Roboto', sans-serif;
+
   font-size: 18px;
   width: 400px;
   margin-top: 30px;
 }
 
 .first-image {
-    position: fixed;
-    top: 25%;
-    right: 38%;
+  position: absolute;
+  top: 25%;
+  right: 38%;
 }
 
-/* .image-2 {
+.second-image {
   top: 131%;
   position: absolute;
   left: 35%;
 }
 
-.secondary-text {
-  font-family: "Roboto", sans-serif;
-  /* display: flex; */
-/* position: absolute; */
-/* top: 150%;
+.second-text-wrapper {
+  display: flex;
+  position: absolute;
+  justify-self: center;
+  top: 150%;
   right: 45px;
   left: 10%;
   right: 75%;
-  /* flex-direction: column; */
+  flex-direction: column;
+}
 
-/* .h2 {
+.second-text-wrapper h2 {
+  font-family: 'Alexandria', sans-serif;
+  margin-bottom: 30px;
   font-size: 40px;
 }
 
-.text-4{
-  font-size: 18px;
+.second-text-wrapper p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   margin-top: 30px;
-}  */
+}
