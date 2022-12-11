@@ -1,9 +1,8 @@
-/* @media screen (and max-width: 1199px): {
+@media screen and (max-width: 1199px) {
+  .first-image {
+    position: fixed;
+    top: 25%;
+    right: 38%;
+  }
+}
 
-    .first-image {
-        /* position: fixed;
-        top: 25%;
-        right: 38%; */
-     
-    /* }
-} */ 
